@@ -13,7 +13,7 @@ e.preventDefault()
 try{
 
 const res = await axios.post(
-"https://finance-backend-80w5.onrender.com/api/auth/forgot-password",
+"https://finance-backend-gamma.vercel.app/api/auth/forgot-password",
 {email}
 )
 

@@ -18,7 +18,7 @@ e.preventDefault()
 try{
 
 const res = await axios.post(
-`https://finance-backend-80w5.onrender.com/api/auth/reset-password/${token}`,
+`https://finance-backend-gamma.vercel.app/auth/reset-password/${token}`,
 {password}
 )
 

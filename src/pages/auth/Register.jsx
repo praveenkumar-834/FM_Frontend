@@ -16,7 +16,7 @@ e.preventDefault()
 try{
 
 const res = await axios.post(
-"https://finance-backend-80w5.onrender.com/api/auth/register",
+"https://finance-backend-gamma.vercel.app/api/auth/register",
 {username,email,password}
 )
 

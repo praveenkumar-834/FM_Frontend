@@ -2,7 +2,7 @@ import axios from "axios"
 
 const api = axios.create({
 // baseURL: "http://localhost:5000/api"
-baseURL: "https://finance-backend-80w5.onrender.com/api"
+baseURL: "https://finance-backend-gamma.vercel.app/api"
 })
 
 api.interceptors.request.use((config) => {

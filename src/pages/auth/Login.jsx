@@ -20,7 +20,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://finance-backend-80w5.onrender.com/api/auth/login",
+        "https://finance-backend-gamma.vercel.app/api/auth/login",
         {
           email,
           password
