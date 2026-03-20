@@ -57,7 +57,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://finance-backend-80w5.onrender.com/api/auth/verify-otp",
+        "https://fm-backend-olive.vercel.app/api/auth/verify-otp",
         {
           userId,
           otp
