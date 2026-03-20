@@ -20,7 +20,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://finance-backend-gamma.vercel.app/api/auth/login",
+        "https://fm-backend-olive.vercel.app/api/auth/login",
         {
           email,
           password
